@@ -1,0 +1,6 @@
+<div *ngIf="productData.isAvailable" class="card">
+    <h1>{{productData.title}}</h1>
+    <h1>{{productData.price}}</h1>
+    <h1>{{productData.isAvailable}}</h1>
+    <button (click)="addToCart()">Add to Cart</button>
+</div>

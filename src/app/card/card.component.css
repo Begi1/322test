@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    background-color: rebeccapurple;
+    color: #fff;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.aval{
+    border: solid 30px gold;
+}

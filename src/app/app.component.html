@@ -1,0 +1,4 @@
+<h1>Cart: {{cartCount}}</h1>
+<div class="card-container">
+    <app-card *ngFor="let product of products" [productData]="product" (cartCountEvent)="receiveAddtoCart($event)"></app-card>
+</div>
